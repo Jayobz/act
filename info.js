@@ -4,9 +4,9 @@ const func1 = ( data1, data2, data3) => {
 
 
     <div class="w1">
-    <h1>${data1}</h1>
+    <h1 class="title">${data1}</h1>
     <p class="graph">${data2}</p>
-    <button>${data3}</button>
+    <button class="btn">${data3}</button>
     </div>`
     
     leftDiv.className = "ClassL"
